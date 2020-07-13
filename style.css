@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet');
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    padding: 1rem 0;
+}
+
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__text {
+    text-transform: uppercase;
+    font-family: "Releway", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.logo__text_fs-3 {
+    font-size: 3rem;
+}
+
+.logo__text_fs-6 {
+    font-size: 6rem;
+}
+
+.logo__text_it {
+    color: orange;
+    font-weight: 100;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+/* header */
+
+.header {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/kanada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    width: 30%;
+    height: 50vh;
+    border: 1px solid white;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.title_white {
+    text-transform: uppercase;
+    color: white;
+}
+
+.line_margin-1 {
+    margin: 2rem 0;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+}
+
+.line_white {
+    background-color: white;
+}
+
+.description {
+    color: grey;
+    font-size: 16px;
+}
+
+.download-btn { 
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: .5rem;
+    cursor: pointer;
+}
